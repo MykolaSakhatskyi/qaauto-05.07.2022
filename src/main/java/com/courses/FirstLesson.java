@@ -8,5 +8,6 @@ public class FirstLesson {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("http://google.com");
+        System.out.println("rpt");
     }
 }
